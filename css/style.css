@@ -83,7 +83,7 @@ background-color: var(--dark-bg-color);
 }
 
 .hero-text{
-    font-weight: 900;
+font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
@@ -95,7 +95,7 @@ color: var(--white-color);
 .hero-btn{
 font-weight: 700;
 font-size: 16px;
-line-height: 18.8;
+line-height: 1.88;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
