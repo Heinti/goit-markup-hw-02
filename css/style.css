@@ -1,0 +1,6 @@
+:root {
+    --accent-color: #00ff00;
+}
+.header{
+    color: var(--accent-color);
+}
