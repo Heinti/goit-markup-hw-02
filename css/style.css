@@ -115,7 +115,7 @@ cursor: pointer;
 .benefits .title{
     visibility: hidden;;
 }
-.benefits-h{
+.benefits-title{
 font-weight: 700;
 line-height: 1.33;
 letter-spacing: 0.03em;
@@ -123,7 +123,7 @@ text-transform: uppercase;
 color: var(--primary-color);
 }
 
-.benefits-p{
+.benefits-text{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -199,7 +199,7 @@ color: #757575;
     background-color: var(--grey-bg-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 16.2;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -214,14 +214,14 @@ color: #757575;
 .gallery-item-title{
 font-weight: 700;
 font-size: 18px;
-line-height: 20;
+line-height: 2;
 letter-spacing: 0.06em;
 color: var(--primary-color);
 }
 
 .gallery-item-text{
 font-size: 16px;
-line-height: 18.8;
+line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--grey-color);
 }
@@ -247,22 +247,39 @@ color: var(--white-color);
 
 .address{
 color: var(--white-color);
-line-height: 17.1;
+line-height: 1.71;
 letter-spacing: 0.03em;
 font-style: normal;
 }
 
 .address-mail{
 color: rgba(255, 255, 255, 0.6);
-line-height: 17.1;
+line-height: 1.71;
 letter-spacing: 0.03em;
 font-style: normal;
 }
 
 .address-tel{
     color: rgba(255, 255, 255, 0.6);
-    line-height: 17.1;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal; 
 }
 
+.address:hover,
+.address:focus{
+    cursor: pointer;
+    color: var(--accent-color);
+}
+
+.address-mail:hover,
+.address-mail:focus{
+    cursor: pointer;
+    color: var(--accent-color);
+}
+
+.address-tel:hover,
+.address-tel:focus{
+    cursor: pointer;
+    color: var(--accent-color);
+    }
